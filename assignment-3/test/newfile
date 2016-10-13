@@ -1,0 +1,10 @@
+
+ CustomerMainJPanel panel = new CustomerMainJPanel(userProcessContainer,productCatalog);
+        userProcessContainer.add("CustomerMainJPanel",panel);
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.next(userProcessContainer);
+
+
+new String[] { "HP", "Dell", "Xeron", "Canon", "Microsoft" }
+
+new javax.swing.DefaultComboBoxModel<>((new String[] { "HP", "Dell", "Xeron", "Canon", "Microsoft" }))
